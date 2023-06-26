@@ -157,107 +157,105 @@ export default function getNodesEdges() {
           ],
         },
 
-        Manufacturing: {
-          id: "bd5a11c6-f978-4a56-ab74-922aac89cf3f",
-          Items: [
-            {
-              id: "455c7c24-63d7-41c4-bdee-8167bf8b2440",
-              Aggregation: {
-                id: "d6b188ac-d2de-41e9-825e-1fec2dea49d9",
-                lotNumber: "1212DD/2006230124",
-                AggregationItem: [
-                  {
-                    id: "e4d68227-c16f-4a0d-9671-94883a9d7a76",
-                    Collection: {
-                      id: "80d00546-c5f7-4560-be39-0132cc2ec88d",
-                      batchNumber:
-                        "7A88EF3B-DE77-4576-B0FC-F45D25517E38/1212DD/2006230123",
-                      harvestedOn: null,
-                      product: {
-                        id: "516cc652-1034-4f64-9444-fa6d6d48707e",
-                        name: "Mangoes",
-                        sku: "1212DD",
-                        description: null,
-                        shelfLife: "5 days",
-                      },
-                      supplier: {
-                        id: "7a88ef3b-de77-4576-b0fc-f45d25517e38",
-                        fname: "Ian",
-                      },
-                    },
-                  },
-                ],
-              },
-              Collection: null,
-            },
-          ],
-        },
+        // Manufacturing: {
+        //   id: "bd5a11c6-f978-4a56-ab74-922aac89cf3f",
+        //   Items: [
+        //     {
+        //       id: "455c7c24-63d7-41c4-bdee-8167bf8b2440",
+        //       Aggregation: {
+        //         id: "d6b188ac-d2de-41e9-825e-1fec2dea49d9",
+        //         lotNumber: "1212DD/2006230124",
+        //         AggregationItem: [
+        //           {
+        //             id: "e4d68227-c16f-4a0d-9671-94883a9d7a76",
+        //             Collection: {
+        //               id: "80d00546-c5f7-4560-be39-0132cc2ec88d",
+        //               batchNumber:
+        //                 "7A88EF3B-DE77-4576-B0FC-F45D25517E38/1212DD/2006230123",
+        //               harvestedOn: null,
+        //               product: {
+        //                 id: "516cc652-1034-4f64-9444-fa6d6d48707e",
+        //                 name: "Mangoes",
+        //                 sku: "1212DD",
+        //                 description: null,
+        //                 shelfLife: "5 days",
+        //               },
+        //               supplier: {
+        //                 id: "7a88ef3b-de77-4576-b0fc-f45d25517e38",
+        //                 fname: "Ian",
+        //               },
+        //             },
+        //           },
+        //         ],
+        //       },
+        //       Collection: null,
+        //     },
+        //   ],
+        // },
 
-        aggregation: {
-          id: "d6b188ac-d2de-41e9-825e-1fec2dea49d9",
-          lotNumber: "1212DD/2006230124",
-          AggregationItem: [
-            {
-              id: "e4d68227-c16f-4a0d-9671-94883a9d7a76",
-              Collection: {
-                id: "80d00546-c5f7-4560-be39-0132cc2ec88d",
-                batchNumber:
-                  "7A88EF3B-DE77-4576-B0FC-F45D25517E38/1212DD/2006230123",
-                harvestedOn: null,
-                product: {
-                  id: "516cc652-1034-4f64-9444-fa6d6d48707e",
-                  name: "Mangoes",
-                  sku: "1212DD",
-                  description: null,
-                  shelfLife: "5 days",
-                },
-                supplier: {
-                  id: "7a88ef3b-de77-4576-b0fc-f45d25517e38",
-                  fname: "Ian",
-                },
-              },
-            },
-          ],
-        },
-        collection: {
-          id: "80d00546-c5f7-4560-be39-0132cc2ec88d",
-          batchNumber: "7A88EF3B-DE77-4576-B0FC-F45D25517E38/1212DD/2006230123",
-          harvestedOn: null,
-          product: {
-            id: "516cc652-1034-4f64-9444-fa6d6d48707e",
-            name: "Mangoes",
-            sku: "1212DD",
-            description: null,
-            shelfLife: "5 days",
-          },
-          supplier: {
-            id: "7a88ef3b-de77-4576-b0fc-f45d25517e38",
-            fname: "Ian",
-          },
-        },
+        // aggregation: {
+        //   id: "d6b188ac-d2de-41e9-825e-1fec2dea49d9",
+        //   lotNumber: "1212DD/2006230124",
+        //   AggregationItem: [
+        //     {
+        //       id: "e4d68227-c16f-4a0d-9671-94883a9d7a76",
+        //       Collection: {
+        //         id: "80d00546-c5f7-4560-be39-0132cc2ec88d",
+        //         batchNumber:
+        //           "7A88EF3B-DE77-4576-B0FC-F45D25517E38/1212DD/2006230123",
+        //         harvestedOn: null,
+        //         product: {
+        //           id: "516cc652-1034-4f64-9444-fa6d6d48707e",
+        //           name: "Mangoes",
+        //           sku: "1212DD",
+        //           description: null,
+        //           shelfLife: "5 days",
+        //         },
+        //         supplier: {
+        //           id: "7a88ef3b-de77-4576-b0fc-f45d25517e38",
+        //           fname: "Ian",
+        //         },
+        //       },
+        //     },
+        //   ],
+        // },
+        // collection: {
+        //   id: "80d00546-c5f7-4560-be39-0132cc2ec88d",
+        //   batchNumber: "7A88EF3B-DE77-4576-B0FC-F45D25517E38/1212DD/2006230123",
+        //   harvestedOn: null,
+        //   product: {
+        //     id: "516cc652-1034-4f64-9444-fa6d6d48707e",
+        //     name: "Mangoes",
+        //     sku: "1212DD",
+        //     description: null,
+        //     shelfLife: "5 days",
+        //   },
+        //   supplier: {
+        //     id: "7a88ef3b-de77-4576-b0fc-f45d25517e38",
+        //     fname: "Ian",
+        //   },
+        // },
       },
     },
   };
 
-  let dispatch;
+ 
   const nodes = [],
     edges: any[] = [],
-    tracefromDispatch = false,
     type = "custom",
     position = { x: 0, y: 0 };
 
   //* From Dispatch - RFID
-  if (
-    payload.data.traceByResource.stage.type === "DISTRIBUTION" &&
-    tracefromDispatch
-  ) {
+  if (payload.data.traceByResource.stage.type === "DISTRIBUTION" ) {
     /**
      * The main process should be
      * dispatch << aggregation(s) << collection(s)
      * or
      * dispatch << manufacturing(s) << aggregation(s) << collection(s)
      */
-    dispatch = payload.data.traceByResource.dispatch;
+
+
+    const dispatch = payload.data.traceByResource.dispatch;
 
     //stage 1: dispatch
     nodes.push({
@@ -277,52 +275,6 @@ export default function getNodesEdges() {
     });
 
     for (let i of dispatch.DispatchItem) {
-      //stage 2: aggregation
-      if (i.Aggregation) {
-        const ag = i.Aggregation;
-        nodes.push({
-          id: i.id,
-          data: {
-            id: i.id,
-            label: `AGGREGATION ${ag.lotNumber}`,
-            lotNumber: ag.lotNumber,
-            items: ag.AggregationItem.length,
-          },
-          type,
-          position,
-        });
-
-        edges.push({
-          id: i.id,
-          source: dispatch.id,
-          target: i.id,
-          label: "Aggregation",
-        });
-
-        for (let x of ag.AggregationItem) {
-          const collection = x.Collection;
-          //stage 3: collection
-          nodes.push({
-            id: x.id,
-            data: {
-              label: `COLLECTION ${collection.batchNumber})`,
-              batchNumber: collection.batchNumber,
-              harvestedOn: collection.harvestedOn ?? "N/A",
-              supplier: collection.supplier,
-              product: collection.product,
-            },
-            type,
-            position,
-          });
-
-          edges.push({
-            id: x.id,
-            source: i.id,
-            target: x.id,
-            label: "Collection",
-          });
-        }
-      }
 
       //stage 2: manufacturing
       if (i.Manufacturing) {
@@ -364,7 +316,8 @@ export default function getNodesEdges() {
             edges.push({
               id: v.id,
               source: m.id,
-              target: i.id,
+              // target: i.id,
+              target: v.id,
               label: "Aggregation",
             });
 
@@ -397,31 +350,8 @@ export default function getNodesEdges() {
         }
       }
 
-      // if (i.Aggregation) {
-      //     getAggregationNodes(i, dispatch, type, position);
-      // }
-    }
-  }
-
-  //* From Manufacturing
-  if (payload.data.traceByResource.stage.type === "PROCESSING") {
-    const manufacturing = payload.data.traceByResource.Manufacturing;
-
-    //stage 1: manufacturing
-    nodes.push({
-      id: manufacturing.id,
-      data: {
-        id: manufacturing.id,
-        label: `PROCESSING ${manufacturing.id}`,
-        items: manufacturing.Items.length,
-      },
-      type,
-      position,
-    });
-
-    for (let i of manufacturing.Items) {
-      //stage 2: aggregation
-      if (i.Aggregation) {
+       //stage 2: aggregation
+       if (i.Aggregation) {
         const ag = i.Aggregation;
         nodes.push({
           id: i.id,
@@ -437,7 +367,7 @@ export default function getNodesEdges() {
 
         edges.push({
           id: i.id,
-          source: manufacturing.id,
+          source: dispatch.id,
           target: i.id,
           label: "Aggregation",
         });
@@ -466,68 +396,139 @@ export default function getNodesEdges() {
           });
         }
       }
+
+      // if (i.Aggregation) {
+      //     getAggregationNodes(i, dispatch, type, position);
+      // }
     }
   }
 
-  //* From Aggregation
-  if (payload.data.traceByResource.stage.type === "AGGREGATION") {
-    const aggregation = payload.data.traceByResource.aggregation;
+  // //* From Manufacturing
+  // if (payload.data.traceByResource.stage.type === "PROCESSING") {
+  //   const manufacturing = payload.data.traceByResource.Manufacturing;
 
-    //stage 1: aggregation
-    nodes.push({
-      id: aggregation.id,
-      data: {
-        id: aggregation.id,
-        label: `AGGREGATION ${aggregation.lotNumber}`,
-        lotNumber: aggregation.lotNumber,
-        items: aggregation.AggregationItem.length,
-      },
-      type,
-      position,
-    });
+  //   //stage 1: manufacturing
+  //   nodes.push({
+  //     id: manufacturing.id,
+  //     data: {
+  //       id: manufacturing.id,
+  //       label: `PROCESSING ${manufacturing.id}`,
+  //       items: manufacturing.Items.length,
+  //     },
+  //     type,
+  //     position,
+  //   });
 
-    for (let i of aggregation.AggregationItem) {
-      const collection = i.Collection;
-      //stage 2: collection
-      nodes.push({
-        id: i.id,
-        data: {
-          label: `COLLECTION ${collection.batchNumber})`,
-          batchNumber: collection.batchNumber,
-          harvestedOn: collection.harvestedOn ?? "N/A",
-          supplier: collection.supplier,
-          product: collection.product,
-        },
-        type,
-        position,
-      });
+  //   for (let i of manufacturing.Items) {
+  //     //stage 2: aggregation
+  //     if (i.Aggregation) {
+  //       const ag = i.Aggregation;
+  //       nodes.push({
+  //         id: i.id,
+  //         data: {
+  //           id: i.id,
+  //           label: `AGGREGATION ${ag.lotNumber}`,
+  //           lotNumber: ag.lotNumber,
+  //           items: ag.AggregationItem.length,
+  //         },
+  //         type,
+  //         position,
+  //       });
 
-      edges.push({
-        id: i.id,
-        source: aggregation.id,
-        target: i.id,
-        label: "Collection",
-      });
-    }
-  }
-  //* From Collection (Not needed) - no need for edges
-  if (payload.data.traceByResource.stage.type === "COLLECTION") {
-    const collection = payload.data.traceByResource.collection;
+  //       edges.push({
+  //         id: i.id,
+  //         source: manufacturing.id,
+  //         target: i.id,
+  //         label: "Aggregation",
+  //       });
 
-      //stage 1: collection
-      nodes.push({
-        id: collection.id,
-        data: {
-          label: `COLLECTION ${collection.batchNumber})`,
-          batchNumber: collection.batchNumber,
-          harvestedOn: collection.harvestedOn ?? "N/A",
-          supplier: collection.supplier,
-          product: collection.product,
-        },
-        type,
-        position,
-      });
-  }
+  //       for (let x of ag.AggregationItem) {
+  //         const collection = x.Collection;
+  //         //stage 3: collection
+  //         nodes.push({
+  //           id: x.id,
+  //           data: {
+  //             label: `COLLECTION ${collection.batchNumber})`,
+  //             batchNumber: collection.batchNumber,
+  //             harvestedOn: collection.harvestedOn ?? "N/A",
+  //             supplier: collection.supplier,
+  //             product: collection.product,
+  //           },
+  //           type,
+  //           position,
+  //         });
+
+  //         edges.push({
+  //           id: x.id,
+  //           source: i.id,
+  //           target: x.id,
+  //           label: "Collection",
+  //         });
+  //       }
+  //     }
+  //   }
+  // }
+
+  // //* From Aggregation
+  // if (payload.data.traceByResource.stage.type === "AGGREGATION") {
+  //   const aggregation = payload.data.traceByResource.aggregation;
+
+  //   //stage 1: aggregation
+  //   nodes.push({
+  //     id: aggregation.id,
+  //     data: {
+  //       id: aggregation.id,
+  //       label: `AGGREGATION ${aggregation.lotNumber}`,
+  //       lotNumber: aggregation.lotNumber,
+  //       items: aggregation.AggregationItem.length,
+  //     },
+  //     type,
+  //     position,
+  //   });
+
+  //   for (let i of aggregation.AggregationItem) {
+  //     const collection = i.Collection;
+  //     //stage 2: collection
+  //     nodes.push({
+  //       id: i.id,
+  //       data: {
+  //         label: `COLLECTION ${collection.batchNumber})`,
+  //         batchNumber: collection.batchNumber,
+  //         harvestedOn: collection.harvestedOn ?? "N/A",
+  //         supplier: collection.supplier,
+  //         product: collection.product,
+  //       },
+  //       type,
+  //       position,
+  //     });
+
+  //     edges.push({
+  //       id: i.id,
+  //       source: aggregation.id,
+  //       target: i.id,
+  //       label: "Collection",
+  //     });
+  //   }
+  // }
+
+  // //* From Collection (Not needed) - no need for edges
+  // if (payload.data.traceByResource.stage.type === "COLLECTION") {
+  //   const collection = payload.data.traceByResource.collection;
+
+  //     //stage 1: collection
+  //     nodes.push({
+  //       id: collection.id,
+  //       data: {
+  //         label: `COLLECTION ${collection.batchNumber})`,
+  //         batchNumber: collection.batchNumber,
+  //         harvestedOn: collection.harvestedOn ?? "N/A",
+  //         supplier: collection.supplier,
+  //         product: collection.product,
+  //       },
+  //       type,
+  //       position,
+  //     });
+  // }
 
   function getAggregationNodes(
     i: any,
